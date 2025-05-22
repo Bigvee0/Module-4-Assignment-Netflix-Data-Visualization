@@ -1,13 +1,31 @@
-# 🎬 Netflix Data Analysis Project
+# Netflix Data Analysis Project
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg )](LICENSE)  
-[![Python](https://img.shields.io/badge/python-v3.6+-blue.svg )](https://www.python.org/ )  
-[![R](https://img.shields.io/badge/R-lang-orange.svg )](https://cran.r-project.org/ )  
-[![Pandas](https://img.shields.io/badge/pandas-data%20analysis-blue )](https://pandas.pydata.org/ )  
-[![Seaborn](https://img.shields.io/badge/seaborn-visualization-blue )](https://seaborn.pydata.org/ )
+This repository contains code and visualizations for analyzing Netflix content from the provided dataset.
 
-This repository contains a comprehensive data preparation, cleaning, exploration, visualization, and integration workflow using the `netflix_data.csv` dataset. The goal of this project is to understand user preferences on Netflix by analyzing genres, ratings, and content distribution through Python and R.
+## Files Included
 
----
+- `Netflix_shows_movies.csv`: Original raw dataset.
+- `Netflix_shows_movies_cleaned.csv`: Cleaned dataset after handling missing values.
+- `netflix_ratings.csv`: Dataset used for R visualization.
+- `most_watched_genres.png`: Top 10 genres visualization (Python).
+- `ratings_distribution.png`: Rating distribution visualization (Python).
+- `ratings_distribution_R.png`: Same rating chart generated in R.
+- `netflix_analysis.py`: Main Python script for data cleaning and visualization.
+- `ratings_visualization.R`: R script for generating the rating bar chart.
 
-## 📁 Folder Structure
+## Requirements
+
+### Python Libraries
+- pandas
+- matplotlib
+- seaborn
+
+### R Packages
+- ggplot2
+
+## How to Run
+
+### Python
+1. Install dependencies:
+   ```bash
+   pip install pandas matplotlib seaborn
